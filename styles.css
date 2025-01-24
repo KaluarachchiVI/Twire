@@ -62,7 +62,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     padding: 50px 0;
-    background-color: #f9f9f9; /* Optional: Background color for the section */
+    background-color: #f9f9f9; 
 }
 
 .swiper-container {
@@ -71,10 +71,10 @@ nav ul li a:hover {
     height: auto;
     overflow: hidden;
     border-radius: 10px;
-    position: relative; /* Ensure relative positioning for child elements */
-    margin: 0 auto; /* Center the container */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for aesthetics */
-    background-color: #fff; /* Optional: Add a white background */
+    position: relative;
+    margin: 0 auto; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
 }
 
 
@@ -88,10 +88,10 @@ nav ul li a:hover {
 }
 
 .swiper-slide img {
-    width: 100%; /* Scale image within slide */
-    max-width: 400px; /* Limit image size */
+    width: 100%; 
+    max-width: 400px; 
     height: auto;
-    border-radius: 5px; /* Optional: Add rounded corners */
+    border-radius: 5px; 
     margin-bottom: 15px;
 }
 
@@ -110,33 +110,33 @@ nav ul li a:hover {
 
 .swiper-button-next,
 .swiper-button-prev {
-    color: #00c6d6; /* Arrow color */
-    width: 40px; /* Adjust size */
+    color: #00c6d6; 
+    width: 40px; 
     height: 40px;
     position: absolute;
-    top: 50%; /* Center vertically */
+    top: 50%; 
     transform: translateY(-50%);
-    z-index: 10; /* Ensure arrows are on top */
-    background: rgba(255, 255, 255, 0.8); /* Optional: Add background for visibility */
-    border-radius: 50%; /* Optional: Make them circular */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+    z-index: 10; 
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 50%; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Adjust the position of each arrow */
+
 .swiper-button-next {
-    right: 10px; /* Position relative to the right edge */
+    right: 10px; 
 }
 
 .swiper-button-prev {
-    left: 10px; /* Position relative to the left edge */
+    left: 10px; 
 }
 
 
 .swiper-pagination {
-    bottom: 10px; /* Adjust pagination position */
+    bottom: 10px; 
     text-align: center;
 }
 

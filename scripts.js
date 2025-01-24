@@ -6,7 +6,7 @@
           setTimeout(() => {
             row.style.opacity = "1";
             row.style.transform = "translateY(0)";
-          }, index * 500); // Delay each row animation by 500ms
+          }, index * 500); 
         });
       });
      
